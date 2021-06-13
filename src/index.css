@@ -259,7 +259,10 @@ font-stretch: normal;
   font-weight: normal;
   font-size: 2.5rem;
   line-height: 1.33;
-  margin: 1rem 0 ;
+   ;
+}
+.newsletter p {
+  margin: 2rem 0
 }
 .newsletter form{
   display: flex;
@@ -347,10 +350,11 @@ font-stretch: normal;
   margin: 0 auto;
 }
 .container .logo {
-  width: 28rem;
+  
   color: white;
 }
 .logo p {
+  width: 17rem;
   margin: 1.8rem 0px;
 }
 .nfo p {
