@@ -23,7 +23,7 @@ const TestimonialsContact = () => {
         <p className="subtitle">
           Thank you for all the amazing produce and products you deliver each
           week… you make my life so easy an bring goodness into our family
-          eating. I’ve been roasting a lot of brussel sprouts and
+          eating. I’ve been roasting a lot of brussel sprouts
         </p>
         <div className="pagination">
           <span></span>
@@ -34,7 +34,7 @@ const TestimonialsContact = () => {
       </div>
       <div className="newsletter">
         <h3>Subscribe to Our Newsletter</h3>
-        <p>
+        <p className="subtitle">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>

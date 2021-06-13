@@ -5,6 +5,7 @@ body,html,#root {
   width: 100vw;
  font-family: 'Libre Baskerville', serif;
  background-color: #f1fefe;
+ font-size: 12px;
 }
 *{
   margin: 0;
@@ -14,26 +15,26 @@ body,html,#root {
 /* ============================
   Header
 =============================== */
-.header-wrapper{
+.header-wrapper {
   height: 10vh;
   width: 80vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 12px 0px;
+  padding: 1rem 0px;
 }
-.header-wrapper .header-left{
+.header-wrapper .header-left {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: .9rem;
 }
-.header-left img{
-  height: 52px;
-  width: 52px;
+.header-left img {
+  height: 5rem;
+  width: 5rem;
 }
-.header-left h2{
-  font-size: 42px;
+.header-left h2 {
+  font-size: 4rem;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -42,14 +43,14 @@ body,html,#root {
   text-align: left;
   color: #374b5c;
 }
-.header-right{
+.header-right {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 2.6rem;
 }
-.header-right a{
+.header-right a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 1.2rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -58,16 +59,16 @@ body,html,#root {
   text-align: left;
   color: #374b5c;
 }
-.header-right .active{
+.header-right .active {
   border-bottom: 2px solid #374b5c ;
   padding-bottom: 4px;
 }
-.header-right button{
+.header-right button {
   font-weight: normal;
-  font-size: 16px;
+  font-size: 1.2rem;
   border: 2px solid #00dbd0;
-  padding: 8px 16px;
-  border-radius: 10px;
+  padding: .8rem 1.2rem;
+  border-radius: .9rem;
   color: #374b5c;
   background-color: white;
 }
@@ -75,7 +76,7 @@ body,html,#root {
 /* ============================
   Hero
 =============================== */
-.hero-wrapper{
+.hero-wrapper {
   display: flex;
   height: 90vh;
   width: 80vw;
@@ -83,97 +84,105 @@ body,html,#root {
   align-items: center;
   gap: 0px;
 }
-.hero-wrapper .left{
-padding: 20px;
+.hero-wrapper .left {
+padding: 1.8rem;
 color: #374b5c;
 width: 40%;
 letter-spacing: normal;
 font-stretch: normal;
 }
-.hero-wrapper .left h3{
-  font-size: 36px;
+.hero-wrapper .left h3 {
+  font-size: 3rem;
   font-weight: 400;
   margin-bottom: 10px;
 }
-.hero-wrapper .left h1{
-  font-size: 56px;
+.hero-wrapper .left h1 {
+  font-size: 4.5rem;
   font-weight: 400;
-  margin-bottom: 10px;
+  margin-bottom: .9rem;
 }
-.hero-wrapper .left p{
-  font-size: 18px;
+.hero-wrapper .left p {
+  font-size: 1.5rem;
   font-weight: normal;
-  margin: 30px 0px;
+  margin: 2.5rem 0px;
 }
-.hero-wrapper .left button{
-  padding: 20px 40px;
+.hero-wrapper .left button {
+  padding: 1.9rem 3.2rem;
   border-radius: 10px;
   background-color: #00dbd0;
   border: none;
-  font-size: 18px;
+  font-size: 1.4rem;
   font-weight: bold;
   color: white;
 }
-.hero-wrapper .right{
+.hero-wrapper .right {
   display: flex;
   position: relative;
   flex-grow: 1;
   justify-content: space-around;
   padding: 0px;
 }
-.hero-wrapper .right img:nth-child(1){
-   padding: 20px;
+.hero-wrapper .right img:nth-child(1) {
+    padding: 2rem;
     border: 2px solid #00dbd0;
-    height: 300px;
+    height: 28rem;
 }
-.hero-wrapper .right img:nth-child(2){
+.hero-wrapper .right img:nth-child(2) {
   position: absolute;
-  height: 500px;
+  height: 48rem;
   left: 0px;
 }
 /* ============================
   Featured
 =============================== */
 
-.featured-wrapper{
+.featured-wrapper {
   display: flex;
-  gap: 50px;
+  gap: 4.1rem;
   flex-direction: column;
   width: 80vw;
   margin: 0 auto;
   color: #374b5c;
 }
-.featured-wrapper .nature,.present{
+.featured-wrapper .nature,.present {
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: 20px;
-  margin: 20px 0px;
+  gap: 1.4rem;
+  margin: 1.4rem 0px;
 }
-.featured-wrapper .top{
-  width: 600px;
+.featured-wrapper .top {
+  width: 58rem;
   margin: 0 auto;
 }
- .featured-wrapper .top h3{
-   margin: 20px 0px;
-   font-size: 36px;
+ .featured-wrapper .top h3 {
+   margin: 1.4rem 0px;
+   font-size: 3rem;
    font-weight: normal;
  }
  .featured-wrapper .top p{
-   font-size: small;
+   font-size: 1.3rem;
  }
- .featured-wrapper .bottom{
+ .featured-wrapper .bottom {
   display: flex;
-  gap: 30px;
-  margin: 20px 0px;
+  gap: 2rem;
+  margin: 1.4rem 0px;
   justify-content: space-between;
+ }
+ .nature .bottom img{
+   height: 15rem;
+   width: 15rem;
+ }
+ .present .bottom img{
+  height: 12rem;
+  width: 12rem;
  }
  .pagination{
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: .9rem;
 }
- .pagination span{
+ .pagination span {
    height: 5px;
    width: 5px;
    padding: 2px 2px;
@@ -188,94 +197,84 @@ font-stretch: normal;
   Testimonial
 =============================== */
 
- .testimonial-contact-wrapper{
-    display: grid;
-    grid-template-columns: 30% auto 30%;
-    grid-template-rows: 1fr 1fr;
-    margin-top: 60px;
+ .testimonial-contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 2rem;
     color:#374b5c;
+    align-items: center;
+    gap : 10rem;
  }
- .testimonial-contact-wrapper div:nth-child(1){
-   grid-row: 1/3;
- }
- .testimonial-contact-wrapper div:nth-child(1) img{
-  position: relative;
-  right: 150%;
+ .testimonial-contact-wrapper div:nth-child(1) img {
+  position: absolute;
+  left: -45%;
 }
-.testimonial{
+.testimonial {
   display: flex;
   flex-direction: column;
+  width: 50vw;
   text-align: center;
   align-items: center;
   gap: 10px;
   justify-content: center;
 }
-.testimonial img:nth-child(1){
-  height: 60px;
-  width: 60px;
+.testimonial img:nth-child(1) {
+  height: 5.5rem;
+  width: 5.5rem;
   margin: 10px 0px;
 }
-.testimonial img:nth-child(2){
-  height: 100px;
-  width: 100px;
+.testimonial img:nth-child(2) {
+  height: 10rem;
+  width: 10rem;
   border-radius: 100%;
 }
-.testimonial p:nth-child(1){
-  font-size: 26px;
-  letter-spacing: normal;
-}
-.testimonial span{
+
+.testimonial span {
   display: flex;
   gap: 10px;
 }
-.subtitle{
-  font-size: 13px;
-  line-height: 40px;
+.subtitle {
+  font-size: 1.3rem;
+  line-height: 2.5rem;
   color: #374b5c
 }
-.testimonial .pagination span:nth-child(1){
+.testimonial .pagination span:nth-child(1) {
   background-color: #374b5c;
 }
-.testimonial .pagination span{
+.testimonial .pagination span {
   background-color: white;
   border: 1px solid #374b5c;
 }
 /* ============================
   Newsletter
 =============================== */
-.newsletter{
+.newsletter {
   display: flex;
   flex-direction: column;
-  grid-row: 2/3;
-  grid-column: 2/3;
+  width: 50vw;
   text-align: center;
   justify-content: center;
 }
-.newsletter h3{
+.newsletter h3 {
   font-weight: normal;
-  font-size: 30px;
+  font-size: 2.5rem;
   line-height: 1.33;
-
-}
-.newsletter p {
-  font-size: 13px;
-  margin: 30px 0px;
-  line-height: 25px;
+  margin: 1rem 0 ;
 }
 .newsletter form{
   display: flex;
   justify-content: center;
 }
-.newsletter form input{
-  width: 250px;
+.newsletter form input {
+  width: 23rem;
   padding: 10px;
   border: none;
-  background-color:transparent;
+  background-color: transparent;
   outline: none;
 }
-.newsletter form button{
-  padding: 15px 26px;
-  border-radius: 30px;
+.newsletter form button {
+  padding: 1.1rem 2rem;
+  border-radius: 2.3rem;
   background-color: #00dbd0;
   border: none;
   color: white;
@@ -284,44 +283,44 @@ font-stretch: normal;
   Blog
 =============================== */
 
-.blog-wrapper{
+.blog-wrapper {
   display: flex;
   flex-direction: column;
   width: 70vw;
-  gap: 60px;
+  gap: 5.7rem;
   margin: 0 auto;
   text-align: center;
   color: #374b5c;
 }
-.blog-wrapper .top{
-  margin: 20px 60px;
+.blog-wrapper .top {
+  margin: 1.8rem 5.6rem;
   padding: 0px 20px;
-  width: 550px;
+  width: 55rem;
   margin: 0 auto;
 }
-.blog-wrapper .top h3{
-  margin: 20px 0px;
+.blog-wrapper .top h3 {
+  margin: 1.8rem 0px;
 }
-.blog-wrapper .top p{
-  line-height: 20px;
-  font-size: 14px;
+.blog-wrapper .top p {
+  line-height: 1.8rem;
+  font-size: 1.3rem;
 }
-.blog-wrapper .bottom{
+.blog-wrapper .bottom {
   display: flex;
-  gap: 60px;
+  gap: 5.5rem;
 }
-.blog-wrapper .bottom span img{
-  height: 150px;
-  width: 200px;
+.blog-wrapper .bottom span img {
+  height: 14rem;
+  width: 19rem;
   border-radius: 20px 20px 0px 0px;
 }
-.blog-wrapper .bottom h4{
-  font-size: 18px;
+.blog-wrapper .bottom h4 {
+  font-size: 1.4rem;
   color: #00dbd0;
   margin-top: 10px;
 }
-.blog-wrapper .bottom p{
-  font-size: 12px;
+.blog-wrapper .bottom p {
+  font-size: 1rem;
   color: #374b5c;
   line-height: 1.46;
   margin: 10px 0px;
@@ -330,36 +329,36 @@ font-stretch: normal;
 /* ============================
   Footer
 =============================== */
-.footer-wrapper{
+.footer-wrapper {
   background-image: url("./Image/footer.png");
    background-repeat: no-repeat;
    background-size: cover;
    height: 20vh;
-   padding: 50px 0px;
-   margin-top: 40px;
-   font-size: 12px
+   padding: 4.5rem 0px;
+   margin-top: 3.5rem;
+   font-size: 1rem;
 }
-.footer-wrapper .container{
+.footer-wrapper .container {
   display: flex;
   justify-content: space-around;
   height: 100%;
   width: 85vw;
-  padding-top: 20px;
+  padding-top: 1.8rem;
   margin: 0 auto;
 }
-.container .logo{
-  width: 300px;
+.container .logo {
+  width: 28rem;
   color: white;
 }
-.logo p{
-  margin: 20px 0px;
+.logo p {
+  margin: 1.8rem 0px;
 }
 .nfo p {
-  font-size: 20px;
-  margin-bottom: 15px;
+  font-size: 1.8rem;
+  margin-bottom: 1.2rem;
   color: white;
 }
-.container .nfo span{
+.container .nfo span {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -371,12 +370,37 @@ font-stretch: normal;
 }
 .container .follow p {
   color: white;
-  font-size: 20px;
+  font-size: 1.8rem;
 }
-.container .follow span{
+.container .follow span {
   display: flex;
-  gap: 15px;
-  height: 20px;
-  width: 20px;
-  margin: 20px 0px;
+  gap: 1.2rem;
+  height: 1.8rem;
+  width: 1.8rem;
+  margin: 1.8rem 0px;
+}
+/* ============================
+  Media Queries
+=============================== */
+@media(max-width:480px) {
+  html,body,#root {
+    font-size: 5px;
+  }
+  .header-wrapper {
+    width: 90vw;
+  }
+  .testimonial-contact-wrapper div:nth-child(1) img{
+    height: 400px;
+    left: -80%;
+  }
+  .hero-wrapper {
+    width: 90vw;
+    height: 50vh;
+  }
+  .blog-wrapper {
+   width: 100vw
+  }
+  .featured-wrapper {
+    width: 95vw;
+  }
 }
